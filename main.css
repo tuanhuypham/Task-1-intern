@@ -1,3 +1,7 @@
+.main{
+    width: 1920px;
+    margin: 0 auto;
+}
 .section-1{
     background-image: url("./img/topbaner.png");
     background-repeat: no-repeat;
@@ -11,6 +15,7 @@
 body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+
 
 }
 @font-face {
@@ -32,16 +37,21 @@ body{
     font-size: 65px;
     padding-left: 50px;
 }
+.sub-section-1{
+    width: 1095px;
+    margin: 0 auto;
+}
 .section-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 35px;
     padding-top: 200px;
+
 }
 .section-1 > .img-bottom-section-1{
     display: flex;
-
+    justify-content: center;
 }
 .img-bottom-section-1 img{
     width: 1095px;
@@ -75,7 +85,7 @@ body{
 }
 .section-3{
     background-color: #6e0906;
-    height: 185vh;
+    height: 141vh;
 }
 .color-and-site p{
     font-size: 28px;
@@ -113,8 +123,8 @@ body{
     background-color: #360300;
 }
 .img-top-section-4{
-    padding-left:200px ;
-    padding-right: 200px;
+    width: 1095px;
+    margin: 0 auto;
     padding-top: 15rem;
 }
 .img-top-section-4 img{
@@ -123,12 +133,12 @@ body{
 .top-content-section-4{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 20px;
 }
 .bottom-content-section-4{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .section-4{
     padding-bottom: 50px    ;
@@ -152,15 +162,15 @@ body{
     display: block;
 }
 
-.section-6{
-    padding-left:200px ;
-    padding-right: 200px;
-}
+
 .control-section-6{
     display: flex;
     justify-content: space-between;
 }
-/*.item-2-section-6 img{*/
+.item-2-section-6{
+    width: 50%;
+}
+    /*.item-2-section-6 img{*/
 /*    width: 100%;*/
 /*}*/
 /* Ảnh đầu tiên */
@@ -261,6 +271,7 @@ html, body {
 }
 .item-1-content, .item-2-content, .item-3-content,.item-4-content{
    width: 525px;
+    padding: 10px;
 }
 .item-1-content img{
     width: 100%;
@@ -269,9 +280,14 @@ html, body {
     background-color: #210200;
     padding-top: 50px;
     padding-bottom: 50px;
+
+}
+.control-section-6,.bottom-section-6{
+    width: 1095px;
+    margin: 0 auto;
 }
 .item-1-section-6{
-    width: 700px;
+    width: 70%;
 }
 .item-2-section-6{
  width:300px;
